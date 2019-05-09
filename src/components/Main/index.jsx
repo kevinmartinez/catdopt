@@ -21,20 +21,6 @@ function Main() {
       <section>
         <h3>Images</h3>
         <section className="grid">
-          <article className="grid-item post">
-            <header className="post-header">
-              <h2 className="post-heading">Lukas</h2>
-              <Button>dsada</Button>
-              <span>&#9734;</span>
-            </header>
-            <figure className="post-img">
-              <img src="#" alt="" />
-              <figcaption className="post-img-caption">Nice nice Image</figcaption>
-            </figure>
-            <section className="post-comments">
-              {/* TODO: Mock up a comment */}
-            </section>
-          </article>
           <Post />
           <Post />
           <Post />

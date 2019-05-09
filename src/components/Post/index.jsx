@@ -1,4 +1,5 @@
 import React from 'react';
+import Comment from '../Comment';
 
 function Post() {
   return (
@@ -12,7 +13,7 @@ function Post() {
         <figcaption className="post-img-caption">Nice nice Image</figcaption>
       </figure>
       <section className="post-comments">
-        {/* TODO: Mock up a comment */}
+        <Comment />
       </section>
     </article>
   );
