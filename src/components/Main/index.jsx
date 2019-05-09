@@ -36,6 +36,8 @@ function Main() {
             </section>
           </article>
           <Post />
+          <Post />
+          <Post />
         </section>
       </section>
     </main>
